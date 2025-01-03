@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoColeta", "ServicoColeta\ServicoColeta.csproj", "{BF5C5D19-4E61-4D41-8FAA-DB1278866F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoProcessamento", "ServicoProcessamento\ServicoProcessamento.csproj", "{8063DA75-CAF8-4136-9A97-FE4AD74D7932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{B0FCDA62-E0F5-4B74-B96C-7A5E7410A996}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF5C5D19-4E61-4D41-8FAA-DB1278866F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5C5D19-4E61-4D41-8FAA-DB1278866F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5C5D19-4E61-4D41-8FAA-DB1278866F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5C5D19-4E61-4D41-8FAA-DB1278866F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8063DA75-CAF8-4136-9A97-FE4AD74D7932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8063DA75-CAF8-4136-9A97-FE4AD74D7932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8063DA75-CAF8-4136-9A97-FE4AD74D7932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8063DA75-CAF8-4136-9A97-FE4AD74D7932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0FCDA62-E0F5-4B74-B96C-7A5E7410A996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FCDA62-E0F5-4B74-B96C-7A5E7410A996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FCDA62-E0F5-4B74-B96C-7A5E7410A996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FCDA62-E0F5-4B74-B96C-7A5E7410A996}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

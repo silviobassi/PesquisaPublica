@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddScoped<PesquisaService>();
-builder.Services.AddScoped<IServiceBus, RabbitMqPesquisaRespondidaProducerEvent>();
+builder.Services.AddScoped<IServiceBusEvent, RabbitMqPesquisaRespondidaProducerEvent>();
 
 builder.Services.AddMassTransit(busConfigurator =>
 {

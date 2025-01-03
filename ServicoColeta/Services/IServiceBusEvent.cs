@@ -1,6 +1,6 @@
 ﻿namespace ServicoColeta.Services;
 
-public interface IServiceBus
+public interface IServiceBusEvent
 {
     public Task Publish<T>(T @event, CancellationToken cancellationToken = default) where T : class;
 }

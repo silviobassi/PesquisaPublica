@@ -5,7 +5,7 @@ namespace ServicoColeta.Infrastructure.Producers;
 
 public class RabbitMqPesquisaRespondidaProducerEvent(
     IPublishEndpoint publishEndpoint,
-    ILogger<RabbitMqPesquisaRespondidaProducerEvent> logger) : IServiceBus
+    ILogger<RabbitMqPesquisaRespondidaProducerEvent> logger) : IServiceBusEvent
 {
     public async Task Publish<T>(T @event, CancellationToken cancellationToken = default) where T : class
     {

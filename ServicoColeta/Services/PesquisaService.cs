@@ -2,11 +2,11 @@ using Contracts;
 
 namespace ServicoColeta.Services;
 
-public class PesquisaService(IServiceBus serviceBus, ILogger<PesquisaService> logger)
+public class PesquisaService(IServiceBusEvent serviceBusEvent, ILogger<PesquisaService> logger)
 {
     public async Task Publicar(PesquisaRespondidaEvent pesquisaRespondidaEvent,
         CancellationToken cancellationToken = default)
     {
-        await serviceBus.Publish(pesquisaRespondidaEvent, cancellationToken);
+        await serviceBusEvent.Publish(pesquisaRespondidaEvent, cancellationToken);
     }
 }
